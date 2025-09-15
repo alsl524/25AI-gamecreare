@@ -2,8 +2,10 @@ using UnityEngine;
 
 public class todtjdrl : MonoBehaviour
 {
-    public GameObject todtjdrl_;
+    public GameObject todtjd;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    bool a = true;
     void Start()
     {
         
@@ -14,8 +16,8 @@ public class todtjdrl : MonoBehaviour
     {
         if (a)
         {
-            GameObject Ekrl = lnstantiate(todtjdrl);
-
+            GameObject spike = Instantiate(todtjd);
+            spike.transform.position = transform.position;
             a = false;
         }
     }
