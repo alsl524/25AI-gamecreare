@@ -16,6 +16,7 @@ public class todtjdrl : MonoBehaviour
     {
         if (a)
         {
+            Debug.Log("Spike : »ý¼º");
             GameObject spike = Instantiate(todtjd);
             spike.transform.position = transform.position;
             a = false;

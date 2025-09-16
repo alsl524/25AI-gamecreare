@@ -19,6 +19,7 @@ public class TriangleMove : MonoBehaviour
         if (collision.gameObject.CompareTag("tkrwprl"))
             {
             Destroy(gameObject);
-        }   
+            Debug.Log("Spike : ¼Ò¸ê");
+        } 
     }
 }
