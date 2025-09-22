@@ -6,7 +6,7 @@ public class dbwjzjsxmfhf : MonoBehaviour
 {
     Rigidbody2D rb;
     bool isJumping = true;
-    public float JumpPower = 10.0f;
+    public float JumpPower = 5.0f;
 
     public GameObject text;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
